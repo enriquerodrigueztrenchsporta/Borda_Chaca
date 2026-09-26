@@ -28,7 +28,7 @@ La cabecera y el pie se repiten en cada página: si se cambia el menú o el tel�
 
 ## Vídeo de portada
 
-Montaje en bucle (24,5 s) con metraje real con licencia libre de Wikimedia Commons: el Valle de Ordesa, fuego de leña y carne a la brasa. Incluye también las fotos reales de la terraza de la borda y de la Peña Oroel, con un mismo etalonado. Los créditos están en el pie de la web y las instrucciones para regenerarlo, en `tools/hero-video/LEEME.md`.
+Montaje de 26 s en bucle con clips de stock profesionales de Mixkit (licencia gratuita, uso comercial permitido): cordillera, prado, brasas, chuletón en la parrilla, llamarada, vino y corte de la carne. Instrucciones en `tools/hero-video/LEEME.md`.
 
 ## Probar en local
 

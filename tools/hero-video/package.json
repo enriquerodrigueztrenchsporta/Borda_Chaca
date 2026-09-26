@@ -1,7 +1,7 @@
 {
   "name": "borda-chaca-hero-video",
   "private": true,
-  "description": "Montaje del vídeo de portada de Borda Chaca con metraje real (Wikimedia Commons) y fotos del restaurante",
+  "description": "Montaje del vídeo de portada de Borda Chaca con clips de stock profesionales (Mixkit)",
   "scripts": {
     "descargar": "node descargar.js",
     "montar": "node montaje.js"

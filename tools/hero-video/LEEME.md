@@ -1,16 +1,12 @@
 # Vídeo de portada
 
-Montaje de metraje real con licencia libre (Wikimedia Commons) y fotos del restaurante.
-
-1. `npm install`
-2. Copia aquí `terraza-borda.jpg` (foto de la terraza) y `oroel-hi.jpg` (Monte Oroel, Wikimedia Commons).
-3. `npm run descargar`: baja los vídeos de Commons.
-4. `npm run montar`: genera `assets/video/borda-chaca.mp4`.
-
-Para la versión WebM y el póster:
+Montaje de 26 s en bucle con clips de stock profesionales de [Mixkit](https://mixkit.co) (licencia gratuita de Mixkit, uso comercial permitido): la cordillera, una vaca en el prado, las brasas, el chuletón en la parrilla, una llamarada, el vino y el corte de la carne.
 
 ```bash
-npx ffmpeg -i ../../assets/video/borda-chaca.mp4 -c:v libvpx-vp9 -b:v 0 -crf 40 -an ../../assets/video/borda-chaca.webm
+npm install
+npm run descargar   # baja los clips (720p)
+npm run montar      # genera ../../assets/video/borda-chaca.mp4
+npx ffmpeg -i ../../assets/video/borda-chaca.mp4 -c:v libvpx-vp9 -b:v 0 -crf 38 -an ../../assets/video/borda-chaca.webm
 ```
 
-Para sustituir un plano por vídeo propio del restaurante, cambia la entrada correspondiente en `clips` de `montaje.js`.
+Para usar vídeo propio del restaurante, sustituye el archivo y los tiempos del plano correspondiente en `clips`, dentro de `montaje.js`.
