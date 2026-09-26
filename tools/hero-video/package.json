@@ -1,0 +1,13 @@
+{
+  "name": "borda-chaca-hero-video",
+  "private": true,
+  "description": "Genera el vídeo ilustrado en bucle de la portada de Borda Chaca",
+  "scripts": {
+    "preview": "node render.js --preview 5 preview.png",
+    "render": "node render.js ../../assets/video/borda-chaca.mp4 ../../assets/video/borda-chaca-poster.jpg ../../assets/video/borda-chaca.webm"
+  },
+  "dependencies": {
+    "@napi-rs/canvas": "^0.1.0",
+    "ffmpeg-static": "^5.3.0"
+  }
+}
