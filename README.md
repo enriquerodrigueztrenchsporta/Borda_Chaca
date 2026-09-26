@@ -8,22 +8,23 @@ Sitio estático (HTML + CSS + JS, sin dependencias ni compilación): se puede pu
 ## Estructura
 
 ```
-index.html              Página principal (todas las secciones)
+index.html              Portada: vídeo y accesos a cada sección
+la-borda.html           La casa, comedores y galería
+menus.html              Menú Aragonés, Oroel, Niños y raciones
+celebraciones.html      Grupos y eventos
+solete.html             Solete Guía Repsol y prensa
+como-llegar.html        Mapa y rutas desde Jaca y Huesca
+contacto.html           Teléfono, email y horario
 aviso-legal.html        Aviso legal y política de cookies
 privacidad.html         Política de privacidad
-assets/css/styles.css   Sistema de diseño y estilos
-assets/js/main.js       Vídeo, menú, pestañas de menús, horario en vivo, galería, mapa
-assets/img/             Fotografías optimizadas en WebP + favicon
+assets/css/styles.css   Estilos
+assets/js/main.js       Vídeo, menú móvil, horario en vivo, galería
+assets/img/             Fotografías (WebP), fondo topográfico y favicon
 assets/video/           Vídeo ilustrado de portada (WebM + MP4) y póster
 tools/hero-video/       Generador del vídeo de portada
 ```
 
-## Secciones
-
-Portada con vídeo · La Borda · Valores · Cocina · Menús (Aragonés 25 €, Oroel 40 €, Niños 12 €) y raciones ·
-Galería · Comedores y celebraciones · Solete Repsol y prensa · Cómo llegar (mapa bajo demanda) · Horario y reservas.
-
-El horario marca el día actual y si el restaurante está abierto, según la hora de Madrid.
+La cabecera y el pie se repiten en cada página: si se cambia el menú o el teléfono, hay que cambiarlo en todos los .html.
 
 ## Vídeo de portada
 
@@ -45,8 +46,8 @@ npx serve .       # o: python -m http.server
 
 ## Editar contenido
 
-- Precios y platos: `index.html`, sección `#menus`.
-- Horario: tabla en `#contacto` y el objeto `HOURS` en `assets/js/main.js`.
-- Teléfono: buscar `664 196 232` / `+34664196232`.
+- Precios y platos: `menus.html`.
+- Horario: tabla de `contacto.html` y el objeto `HOURS` en `assets/js/main.js`.
+- Teléfono: buscar `664 196 232` / `+34664196232` en todos los .html.
 
 Créditos de las fotografías de terceros (Wikimedia Commons) en el pie de la web.
