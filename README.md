@@ -28,15 +28,7 @@ La cabecera y el pie se repiten en cada página: si se cambia el menú o el tel�
 
 ## Vídeo de portada
 
-Es una ilustración animada generada por código (la borda de piedra al anochecer bajo la Peña Oroel, con humo en la
-chimenea, la brasa encendida, guirnaldas de luces y luciérnagas). Es un bucle perfecto de 16 s.
-
-```bash
-cd tools/hero-video
-npm install
-npm run preview   # un fotograma de prueba
-npm run render    # regenera assets/video/*
-```
+Montaje en bucle (24,5 s) con metraje real con licencia libre de Wikimedia Commons: el Valle de Ordesa, fuego de leña y carne a la brasa. Incluye también las fotos reales de la terraza de la borda y de la Peña Oroel, con un mismo etalonado. Los créditos están en el pie de la web y las instrucciones para regenerarlo, en `tools/hero-video/LEEME.md`.
 
 ## Probar en local
 
